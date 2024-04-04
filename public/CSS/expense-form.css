@@ -1,0 +1,597 @@
+/* Custom Styles for the Expense Form */
+.card {
+    border-radius: 0.5rem; /* Rounded corners for the card */
+    border: 1px solid #e3e6f0; /* Subtle border color */
+    overflow: hidden; /* Ensures no overflow from the child elements */
+}
+
+.card-header {
+    font-size: 1.25rem; /* Larger font size for the header */
+    letter-spacing: 0.5px; /* Subtle letter spacing for better readability */
+}
+
+.form-label {
+    font-weight: 600; /* Makes labels slightly bolder */
+    color: #495057; /* Dark gray for better contrast */
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem; /* Consistent rounded corners for form elements */
+    border: 1px solid #ced4da; /* Subtle border for inputs */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Smooth transition for focus states */
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #80bdff; /* Highlight color for focused inputs */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle glow effect */
+}
+
+.btn-success {
+    letter-spacing: 0.5px; /* Makes button text slightly more expansive */
+    transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out; /* Smooth transition for button states */
+}
+
+.btn-success:hover {
+    background-color: #218838; /* Darker green on hover for better interaction feedback */
+    border-color: #1e7e34;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .card-header {
+        font-size: 1.1rem; /* Slightly smaller font size for mobile */
+    }
+
+    .form-label {
+        font-size: 0.9rem; /* Adjust label size for smaller screens */
+    }
+}
+
+/* Centering and Styling Forms Globally */
+.container {
+    max-width: 800px; /* Adjusts max container width for larger screens */
+}
+
+.card {
+    margin-top: 20px; /* Adds vertical spacing */
+    border-radius: 0.5rem; /* Rounded corners for the card */
+    border: 1px solid #e3e6f0; /* Subtle border color */
+    overflow: hidden; /* Ensures no overflow from child elements */
+}
+
+.card-header {
+    font-size: 1.25rem; /* Larger font size for the header */
+    letter-spacing: 0.5px; /* Subtle letter spacing for better readability */
+}
+
+.form-control, .form-select {
+    border-radius: 0.25rem; /* Consistent rounded corners for form elements */
+    border: 1px solid #ced4da; /* Subtle border for inputs */
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: #80bdff; /* Highlight color for focused inputs */
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Subtle glow effect */
+}
+
+.btn-primary {
+    letter-spacing: 0.5px; /* Makes button text slightly more expansive */
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px; /* Adjusts padding for very small screens */
+    }
+}
+
+
+/* Optional: Custom styles for your form and modal */
+.modal-content {
+    padding: 20px; /* Adds padding inside the modal */
+}
+
+.card-header {
+    font-size: 1.5rem; /* Larger text in the card header */
+}
+
+.btn-link {
+    padding: 0; /* Removes padding from the "Create New Category" button for a more text-like appearance */
+    margin-left: 10px; /* Adds some space before the link button */
+}
+
+.divider {
+    margin: 0 5px; /* Adjust margin as needed */
+}
+
+#content-wrapper {
+    flex: 1; /* Take up remaining vertical space */
+    overflow-y: auto; /* Enable vertical scrolling if needed */
+}
+.skinny-header {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+}
+
+
+/* Add CSS styling */
+#expensesPage .card {
+    margin-bottom: 20px;
+}
+
+#expensesPage .card-header {
+    padding: 10px 20px;
+}
+
+#expensesPage .card-body {
+    padding: 20px;
+}
+
+#expensesPage .card-footer {
+    background-color: #d6e8fa;
+    padding: 10px 20px;
+}
+
+#expensesPage .table-responsive {
+    overflow-x: auto;
+}
+
+#expensesPage table {
+    width: 100%;
+}
+
+#expensesPage th,
+#expensesPage td {
+    vertical-align: middle;
+}
+
+#expensesPage .divider {
+    margin: 0 5px;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 40px 0;
+    color: #333;
+}
+
+.footer h5 {
+    color: #000;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer ul li a {
+    color: #555;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #000;
+}
+
+/* SIDEBAR UPDATE */
+
+.sidebar {
+    min-height: 100vh;
+    color: #fff;
+    background-color: #343a40;
+}
+.sidebar .nav-link {
+    color: #fff;
+    margin: 5px 0;
+    border-radius: 0.25rem;
+}
+.sidebar .nav-link:hover, .sidebar .nav-link.active {
+    background-color: #007bff;
+}
+.sidebar-brand-icon {
+    max-width: 50px;
+    margin-right: 15px;
+}
+.sidebar-divider {
+    border-bottom: 1px solid #495057;
+    margin: 1rem 0;
+}
+
+.active-dropdown-item {
+    background-color: #007bff !important; /* Highlight color */
+    color: white !important; /* Text color for highlighted item */
+}
+.profile-card {
+    max-width: 340px;
+    margin: auto;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+.profile-card h3, .profile-card p {
+    margin: 10px 0;
+}
+
+.profile-card form {
+    margin-top: 20px;
+}
+
+.file-input {
+    display: none;
+}
+.card .btn-sm, .card label.btn-sm {
+    padding: .25rem .5rem; /* Adjust padding as needed */
+    font-size: .875rem; /* Ensure font size is consistent */
+    line-height: 1.5;
+    border-radius: .2rem;
+    height: 38px; /* Explicit height */
+    width: 90px; /* Explicit width */
+    display: inline-flex; /* Flex display to align icon vertically */
+    align-items: center; /* Center items for the label to match button alignment */
+    justify-content: center; /* Center content horizontally */
+}
+/* Additional style to align the icon inside the label */
+.card label.btn-sm i {
+    margin-right: 0; /* Removes any margin if present */
+}
+
+.detail-label {
+    margin-right: 100px; /* Adjust the spacing as needed */
+}
+
+.user-info {
+    font-weight: normal;
+    color: #6c757d;
+}
+
+#updateDetailsBtn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 0.8rem;
+}
+
+#updateDetailsBtn:hover {
+    background-color: #45a049; 
+}
+
+.centered-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.75rem 1rem;
+    font-size: 1.00rem;
+}
+.card-header-sm {
+    font-size: 1.00rem; 
+    padding: 1rem;
+}
+
+.card-header-md {
+    font-size: 1.rem; 
+    padding: 1rem;
+}
+
+.justify-text-center {
+    text-align: center;
+}
+
+#expensesContainer {
+    border-top: 1px solid #dee2e6;
+}
+.clickable-row:hover {
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+.more-info-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+#deleteButton {
+    .button {
+	 --background: #2c003e;
+	 --background-hover: #512b58;
+	 --text: #fff;
+	 --shadow: rgba(0, 9, 61, .2);
+	 --paper: #fe346e;
+	 --paper-lines: #fff;
+	 --trash: #e1e6f9;
+	 --trash-lines: #bbc1e1;
+	 --check: #fff;
+	 --check-background: #20B2AA;
+	 position: relative;
+	 border: none;
+	 outline: none;
+	 background: none;
+	 padding: 10px 24px;
+	 border-radius: 7px;
+	 min-width: 142px;
+	 -webkit-appearance: none;
+	 -webkit-tap-highlight-color: transparent;
+	 cursor: pointer;
+	 display: flex;
+	 color: var(--text);
+	 background: var(--btn, var(--background));
+	 box-shadow: 0 var(--shadow-y, 4px) var(--shadow-blur, 8px) var(--shadow);
+	 transform: scale(var(--scale, 1));
+	 transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
+}
+ .button span {
+	 display: block;
+	 font-size: 14px;
+	 line-height: 25px;
+	 font-weight: 600;
+	 opacity: var(--span-opacity, 1);
+	 transform: translateX(var(--span-x, 0)) translateZ(0);
+	 transition: transform 0.4s ease var(--span-delay, 0.2s), opacity 0.3s ease var(--span-delay, 0.2s);
+}
+ .button .trash {
+	 display: block;
+	 position: relative;
+	 left: -8px;
+	 transform: translate(var(--trash-x, 0), var(--trash-y, 1px)) translateZ(0) scale(var(--trash-scale, 0.64));
+	 transition: transform 0.5s;
+}
+ .button .trash:before, .button .trash:after {
+	 content: '';
+	 position: absolute;
+	 height: 8px;
+	 width: 2px;
+	 border-radius: 1px;
+	 background: var(--icon, var(--trash));
+	 bottom: 100%;
+	 transform-origin: 50% 6px;
+	 transform: translate(var(--x, 3px), 2px) scaleY(var(--sy, 0.7)) rotate(var(--r, 0deg));
+	 transition: transform 0.4s, background 0.3s;
+}
+ .button .trash:before {
+	 left: 1px;
+}
+ .button .trash:after {
+	 right: 1px;
+	 --x: -3px;
+}
+ .button .trash .top {
+	 position: absolute;
+	 overflow: hidden;
+	 left: -4px;
+	 right: -4px;
+	 bottom: 100%;
+	 height: 40px;
+	 z-index: 1;
+	 transform: translateY(2px);
+}
+ .button .trash .top:before, .button .trash .top:after {
+	 content: '';
+	 position: absolute;
+	 border-radius: 1px;
+	 background: var(--icon, var(--trash));
+	 width: var(--w, 12px);
+	 height: var(--h, 2px);
+	 left: var(--l, 8px);
+	 bottom: var(--b, 5px);
+	 transition: background 0.3s, transform 0.4s;
+}
+ .button .trash .top:after {
+	 --w: 28px;
+	 --h: 2px;
+	 --l: 0;
+	 --b: 0;
+	 transform: scaleX(var(--trash-line-scale, 1));
+}
+ .button .trash .top .paper {
+	 width: 14px;
+	 height: 18px;
+	 background: var(--paper);
+	 left: 7px;
+	 bottom: 0;
+	 border-radius: 1px;
+	 position: absolute;
+	 transform: translateY(-16px);
+	 opacity: 0;
+}
+ .button .trash .top .paper:before, .button .trash .top .paper:after {
+	 content: '';
+	 width: var(--w, 10px);
+	 height: 2px;
+	 border-radius: 1px;
+	 position: absolute;
+	 left: 2px;
+	 top: var(--t, 2px);
+	 background: var(--paper-lines);
+	 transform: scaleY(0.7);
+	 box-shadow: 0 9px 0 var(--paper-lines);
+}
+ .button .trash .top .paper:after {
+	 --t: 5px;
+	 --w: 7px;
+}
+ .button .trash .box {
+	 width: 20px;
+	 height: 25px;
+	 border: 2px solid var(--icon, var(--trash));
+	 border-radius: 1px 1px 4px 4px;
+	 position: relative;
+	 overflow: hidden;
+	 z-index: 2;
+	 transition: border-color 0.3s;
+}
+ .button .trash .box:before, .button .trash .box:after {
+	 content: '';
+	 position: absolute;
+	 width: 4px;
+	 height: var(--h, 20px);
+	 top: 0;
+	 left: var(--l, 50%);
+	 background: var(--b, var(--trash-lines));
+}
+ .button .trash .box:before {
+	 border-radius: 2px;
+	 margin-left: -2px;
+	 transform: translateX(-3px) scale(0.6);
+	 box-shadow: 10px 0 0 var(--trash-lines);
+	 opacity: var(--trash-lines-opacity, 1);
+	 transition: transform 0.4s, opacity 0.4s;
+}
+ .button .trash .box:after {
+	 --h: 16px;
+	 --b: var(--paper);
+	 --l: 1px;
+	 transform: translate(-0.5px, -16px) scaleX(0.5);
+	 box-shadow: 7px 0 0 var(--paper), 14px 0 0 var(--paper), 21px 0 0 var(--paper);
+}
+ .button .trash .check {
+	 padding: 4px 3px;
+	 border-radius: 50%;
+	 background: var(--check-background);
+	 position: absolute;
+	 left: 2px;
+	 top: 24px;
+	 opacity: var(--check-opacity, 0);
+	 transform: translateY(var(--check-y, 0)) scale(var(--check-scale, 0.2));
+	 transition: transform var(--check-duration, 0.2s) ease var(--check-delay, 0s), opacity var(--check-duration-opacity, 0.2s) ease var(--check-delay, 0s);
+}
+ .button .trash .check svg {
+	 width: 8px;
+	 height: 6px;
+	 display: block;
+	 fill: none;
+	 stroke-width: 1.5;
+	 stroke-dasharray: 9px;
+	 stroke-dashoffset: var(--check-offset, 9px);
+	 stroke-linecap: round;
+	 stroke-linejoin: round;
+	 stroke: var(--check);
+	 transition: stroke-dashoffset 0.4s ease var(--checkmark-delay, 0.4s);
+}
+ .button.delete {
+	 --span-opacity: 0;
+	 --span-x: 16px;
+	 --span-delay: 0s;
+	 --trash-x: 46px;
+	 --trash-y: 2px;
+	 --trash-scale: 1;
+	 --trash-lines-opacity: 0;
+	 --trash-line-scale: 0;
+	 --icon: #fff;
+	 --check-offset: 0;
+	 --check-opacity: 1;
+	 --check-scale: 1;
+	 --check-y: 16px;
+	 --check-delay: 1.7s;
+	 --checkmark-delay: 2.1s;
+	 --check-duration: 0.55s;
+	 --check-duration-opacity: 0.3s;
+}
+ .button.delete .trash:before, .button.delete .trash:after {
+	 --sy: 1;
+	 --x: 0;
+}
+ .button.delete .trash:before {
+	 --r: 40deg;
+}
+ .button.delete .trash:after {
+	 --r: -40deg;
+}
+ .button.delete .trash .top .paper {
+	 animation: paper 1.5s linear forwards 0.5s;
+}
+ .button.delete .trash .box:after {
+	 animation: cut 1.5s linear forwards 0.5s;
+}
+ .button.delete, .button:hover {
+	 --btn: var(--background-hover);
+	 --shadow-y: 5px;
+	 --shadow-blur: 9px;
+}
+ .button:active {
+	 --shadow-y: 2px;
+	 --shadow-blur: 5px;
+	 --scale: 0.94;
+}
+ @keyframes paper {
+	 10%, 100% {
+		 opacity: 1;
+	}
+	 20% {
+		 transform: translateY(-16px);
+	}
+	 40% {
+		 transform: translateY(0);
+	}
+	 70%, 100% {
+		 transform: translateY(24px);
+	}
+}
+ @keyframes cut {
+	 0%, 40% {
+		 transform: translate(-0.5px, -16px) scaleX(0.5);
+	}
+	 100% {
+		 transform: translate(-0.5px, 24px) scaleX(0.5);
+	}
+}
+ html {
+	 box-sizing: border-box;
+	 -webkit-font-smoothing: antialiased;
+}
+ * {
+	 box-sizing: inherit;
+}
+ *:before, *:after {
+	 box-sizing: inherit;
+}
+ body {
+	 min-height: 100vh;
+	 display: flex;
+	 font-family: 'Inter', Arial;
+	 justify-content: center;
+	 align-items: center;
+	 background: #eceffc;
+}
+ body .dribbble {
+	 position: fixed;
+	 display: block;
+	 right: 20px;
+	 bottom: 20px;
+}
+ body .dribbble img {
+	 display: block;
+	 height: 28px;
+}
+ body .twitter {
+	 position: fixed;
+	 display: block;
+	 right: 64px;
+	 bottom: 14px;
+}
+ body .twitter svg {
+	 width: 32px;
+	 height: 32px;
+	 fill: #1da1f2;
+}
+ 
+}

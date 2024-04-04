@@ -1,0 +1,81 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body {
+    background: url('/public/images/login.jpg') no-repeat center center fixed; 
+    background-size: cover;
+}
+.card {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the alpha value (0.2) to control opacity */
+    backdrop-filter: blur(10px); /* Blur effect for the glass look */
+    border-radius: 10px; /* Optional: for rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: to add a slight border */
+}
+
+form .form-label {
+    color: #ffffff; /* Change to your preferred bright color */
+}
+  
+.custom-card-header {
+    background-color: #147c80; /* Replace #hexcode with your desired color */
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: #147c8044; /* Replace with your desired color */
+}
+
+.navbar-nav .nav-item .nav-link {
+    transition: all 0.3s ease-in-out;
+    border: 2px solid #147c80; /* Adds a frame around the buttons */
+    padding: 5px 10px; /* Adds some padding to make it look like a button */
+    border-radius: 5px; /* Rounds the corners of the border */
+    color: #ffffffc7 !important; /* Initial color for the text */
+    background-color: transparent; /* Transparent background to start with */
+    border-color: #ffffff;
+}
+  
+.navbar-nav .nav-item .nav-link:hover, .navbar-nav .nav-item .nav-link:focus {
+    color: #ffffff !important; /* Changes text color on hover */
+    background-color: #147c80 !important; /* Changes background color on hover */
+    border-color: #147c80; /* Darkens the frame color on hover */
+}
+
+// Position the forgot password link at the bottom-right of its container
+.form-group {
+    position: relative;
+    .forgot-password-link {
+      position: absolute;
+      right: 0;
+      bottom: -10px; // Adjust based on your layout
+      color: #6fb5ff; // Initial color, adjust as needed
+      &:hover {
+        color: white; // Color on hover
+      }
+    }
+}
+  
+// Make the login button larger
+.btn-primary {
+    font-size: 1rem; // Adjust size as needed
+    padding: .75rem 1.25rem; // Adjust padding as needed for larger button
+}
+
+.register-link {
+    color: #6fb5ff; // Initial color, adjust as needed
+    &:hover {
+      color: white; // Color on hover
+      text-decoration: underline; // Optional, for additional visual feedback
+    }
+}
+  
+  
+  
